@@ -8,6 +8,7 @@ import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
 import { Upload, BarChart3, MessageSquare } from "lucide-react";
 import { motion } from "framer-motion";
 import { PieChart, Pie, Cell, Tooltip, Legend } from "recharts";
+const apiUrl = process.env.NEXT_PUBLIC_BACKEND_URL;
 
 export default function CreditCardAnalyzerUI() {
   const [file, setFile] = useState(null);
