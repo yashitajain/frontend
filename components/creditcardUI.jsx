@@ -290,6 +290,14 @@ const activeCards = aggregates?.card_spend
       <h1 className="text-5xl font-extrabold text-center mb-10">
         💳 Smart Credit Card Analyzer
       </h1>
+      <h3 className="text-4xl font-extrabold text-center mb-4">
+  Ever wonder where your money actually goes?
+</h3>
+
+<p className="text-center text-gray-600 mb-8">
+  Coffee runs, food delivery, subscriptions — it adds up faster than you think. <br/>
+  We analyze spending, detect patterns, and surface insights you can act on.
+</p>
 
       <div className="max-w-7xl mx-auto">
         <Card>
@@ -325,6 +333,9 @@ const activeCards = aggregates?.card_spend
                       {files.length} file(s) selected
                     </p>
                   )}
+                  <div className="mt-4 text-xs text-gray-500">
+                    📄 Credit card statements only · PDF format · No screenshots
+                  </div>
 
                   <Button
                     className="mt-4"
