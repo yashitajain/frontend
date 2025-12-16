@@ -342,7 +342,7 @@ const activeCards = aggregates?.card_spend
                     onClick={handleAnalyze}
                     disabled={loading}
                   >
-                    {loading ? "Analyzing..." : "Analyze"}
+                    {loading ? "Analyzing...Please wait" : "Analyze"}
                   </Button>
 
                   {error && <p className="text-red-500 mt-4">{error}</p>}
